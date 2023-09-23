@@ -1,9 +1,9 @@
-#Tipos de Utilização das Expressões Regulares no Desenvolvimento de Software
+# Tipos de Utilização das Expressões Regulares no Desenvolvimento de Software
 ## 1. Validação de Entrada de Usuário:
 Expressões regulares são amplamente utilizadas para validar a entrada de dados dos usuários, como e-mails, números de telefone, datas e senhas.
 
 Exemplo: Validar um endereço de e-mail
-```
+```python:
 import re
 
 def validar_email(email):
@@ -12,8 +12,8 @@ def validar_email(email):
         return True
     else:
         return False
-```python:
-### Utilização
+```
+# Utilização
 print(validar_email('exemplo@email.com'))  # Retorna True
 print(validar_email('invalido@exemplo'))    # Retorna False
 ### 2. Extração de Informações:
@@ -45,7 +45,7 @@ padrao = r'\b(gato)\b'
 
 novo_texto = re.sub(padrao, 'cachorro', texto)
 
-### Utilização
+# Utilização
 print(novo_texto)  # Retorna "O cachorro está no telhado."
 ```python:
 E assim por diante para os outros tipos de utilização. O conteúdo acima foi formatado usando a linguagem Markdown para melhor visualização e organização.
