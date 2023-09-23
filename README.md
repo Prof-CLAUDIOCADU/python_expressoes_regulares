@@ -1,10 +1,8 @@
-Tipos de Utilização das Expressões Regulares no Desenvolvimento de Software
-1. Validação de Entrada de Usuário:
+#Tipos de Utilização das Expressões Regulares no Desenvolvimento de Software
+## 1. Validação de Entrada de Usuário:
 Expressões regulares são amplamente utilizadas para validar a entrada de dados dos usuários, como e-mails, números de telefone, datas e senhas.
 
 Exemplo: Validar um endereço de e-mail
-python
-Copy code
 ```
 import re
 
@@ -14,11 +12,11 @@ def validar_email(email):
         return True
     else:
         return False
-```
-# Utilização
+```python:
+### Utilização
 print(validar_email('exemplo@email.com'))  # Retorna True
 print(validar_email('invalido@exemplo'))    # Retorna False
-2. Extração de Informações:
+### 2. Extração de Informações:
 Expressões regulares permitem extrair informações específicas de um texto, como números de telefone, endereços, IDs, entre outros.
 
 Exemplo: Extrair números de telefone de um texto
@@ -32,14 +30,13 @@ padrao = r'\(\d{3}\) \d{3}-\d{4}'
 
 numeros_telefone = re.findall(padrao, texto)
 
-# Utilização
+#Utilização
 print(numeros_telefone)  # Retorna ['(123) 456-7890', '(987) 654-3210']
-3. Substituição de Texto:
+##3. Substituição de Texto:
 Expressões regulares possibilitam a substituição de palavras ou padrões específicos em um texto por outras palavras ou padrões.
 
 Exemplo: Substituir palavras específicas em um texto
-python
-Copy code
+```
 import re
 
 texto = "O gato está no telhado."
@@ -48,6 +45,7 @@ padrao = r'\b(gato)\b'
 
 novo_texto = re.sub(padrao, 'cachorro', texto)
 
-# Utilização
+### Utilização
 print(novo_texto)  # Retorna "O cachorro está no telhado."
+```python:
 E assim por diante para os outros tipos de utilização. O conteúdo acima foi formatado usando a linguagem Markdown para melhor visualização e organização.
