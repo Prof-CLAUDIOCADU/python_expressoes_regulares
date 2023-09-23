@@ -5,7 +5,7 @@ Expressões regulares são amplamente utilizadas para validar a entrada de dados
 Exemplo: Validar um endereço de e-mail
 python
 Copy code
-...
+```
 import re
 
 def validar_email(email):
@@ -14,7 +14,7 @@ def validar_email(email):
         return True
     else:
         return False
-...
+```
 # Utilização
 print(validar_email('exemplo@email.com'))  # Retorna True
 print(validar_email('invalido@exemplo'))    # Retorna False
