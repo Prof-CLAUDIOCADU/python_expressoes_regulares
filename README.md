@@ -1,7 +1,3 @@
-Claro, vou refazer a resposta utilizando o formato Markdown, incluindo explicações detalhadas para cada tipo de utilização e exemplos mais elaborados. Vamos lá:
-
----
-
 ## Utilização de Expressões Regulares em Python
 
 As expressões regulares (regex) são sequências de caracteres que definem um padrão de busca. Elas são poderosas ferramentas para manipulação e validação de strings em Python.
