@@ -113,3 +113,34 @@ print(telefones_padronizados)  # ['1234567890', '9876543210', '5551234567']
 ```
 
 Esses exemplos ilustram como as expressões regulares podem ser aplicadas de maneira prática no desenvolvimento de software, permitindo validação, extração e manipulação de informações em strings de forma eficaz.
+
+## re - Biblioteca padrão do Python para Expressões Regulares
+
+A biblioteca `re` (regular expression) em Python é um módulo embutido que fornece funcionalidades para trabalhar com expressões regulares. As expressões regulares são padrões de busca que podem ser usados para encontrar, substituir ou manipular texto com base em um padrão específico.
+
+Aqui está uma explicação mais detalhada sobre a biblioteca `re` e alguns comandos frequentemente utilizados:
+
+1. **`re.compile(pattern)`**:
+   - Compila uma expressão regular em um objeto de padrão que pode ser usado para realizar várias operações de correspondência.
+
+2. **`re.match(pattern, string)`**:
+   - Tenta casar o padrão no início da string. Retorna um objeto de correspondência se o padrão casar e `None` caso contrário.
+
+3. **`re.search(pattern, string)`**:
+   - Procura por uma correspondência em qualquer lugar da string. Retorna um objeto de correspondência se o padrão casar e `None` caso contrário.
+
+4. **`re.findall(pattern, string)`**:
+   - Retorna uma lista de todas as correspondências do padrão na string.
+
+5. **`re.finditer(pattern, string)`**:
+   - Retorna um iterador que produz objetos de correspondência para cada correspondência do padrão na string.
+
+6. **`re.sub(pattern, repl, string)`**:
+   - Substitui todas as ocorrências do padrão na string pelo texto de substituição (`repl`).
+
+7. **`re.split(pattern, string)`**:
+   - Divide a string com base no padrão especificado e retorna uma lista de substrings.
+
+Referências úteis:
+- Documentação oficial do Python para o módulo `re`: [Python re - Regular expression operations](https://docs.python.org/pt-br/3/library/re.html#writing-a-tokenizer)
+Essas referências fornecem uma compreensão mais profunda sobre expressões regulares em Python e como usar o módulo `re` para manipular e trabalhar com padrões de texto de forma eficaz.
